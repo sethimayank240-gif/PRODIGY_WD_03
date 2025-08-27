@@ -10,9 +10,9 @@ A simple and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript 
 
 📂 Project Structure
 tic-tac-toe-webapp/
-│── index.html   # HTML structure
+│── index4.html   # HTML structure
 │── style.css    # Styling (UI/UX)
-│── script.js    # Game logic
+│── app.js    # Game logic
 │── README.md    # Project documentation
 
 🚀 How to Run
