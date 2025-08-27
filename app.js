@@ -23,10 +23,10 @@ boxes.forEach((box) => {
   box.addEventListener("click", () => {
     if (turnO) {
       box.innerText = "O";
-      box.classList.add("o");   // ✅ add O class
+      box.classList.add("o");   
     } else {
       box.innerText = "X";
-      box.classList.add("x");   // ✅ add X class
+      box.classList.add("x");   
     }
     box.disabled = true;
     turnO = !turnO;
@@ -43,7 +43,7 @@ const enableBoxes = () => {
   boxes.forEach((box) => {
     box.disabled = false;
     box.innerText = "";
-    box.classList.remove("x", "o"); // ✅ remove colors when reset
+    box.classList.remove("x", "o"); 
   });
 };
 
@@ -78,3 +78,4 @@ const checkWinner = () => {
 
 newGameBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
+
